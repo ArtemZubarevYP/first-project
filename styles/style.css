@@ -305,7 +305,6 @@ z-index: 2;
 }
 
 .footer {
-  border: 1px solid red;
   background-color: #1f1f1f;
   color: white;
   display: flex;
@@ -315,7 +314,6 @@ z-index: 2;
 }
 
 .footer__content {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -328,10 +326,9 @@ z-index: 2;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid green;
   position:absolute;
   bottom: 0;
-  left: 0s;
+  left: 0;
 }
 
 .footer__author_place {
@@ -347,17 +344,14 @@ z-index: 2;
   position: relative;
   display: flex;
   flex-basis: 711px;
-  border: 1px solid greenyellow;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
-  border: 1px solid greenyellow;
 }
 
 .footer__link {
-  border: 1px solid pink;
   color: white;
   text-decoration: none;
   line-height: 30px;
